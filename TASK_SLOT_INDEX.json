@@ -1,0 +1,352 @@
+[
+  {
+    "tasks": "T02",
+    "file": "src/signalforge/config.py",
+    "function": "load_settings",
+    "owner": "A",
+    "lesson": "A01"
+  },
+  {
+    "tasks": "T03",
+    "file": "src/signalforge/contracts.py",
+    "function": "define_company_and_document_contracts",
+    "owner": "B",
+    "lesson": "B01"
+  },
+  {
+    "tasks": "T04",
+    "file": "src/signalforge/contracts.py",
+    "function": "define_research_contracts",
+    "owner": "B",
+    "lesson": "B01"
+  },
+  {
+    "tasks": "T06",
+    "file": "src/signalforge/companies.py",
+    "function": "resolve_company",
+    "owner": "A",
+    "lesson": "A04"
+  },
+  {
+    "tasks": "T07",
+    "file": "src/signalforge/source_search.py",
+    "function": "build_research_queries",
+    "owner": "B",
+    "lesson": "B02"
+  },
+  {
+    "tasks": "T08",
+    "file": "src/signalforge/source_search.py",
+    "function": "search_public_sources",
+    "owner": "A",
+    "lesson": "A04"
+  },
+  {
+    "tasks": "T09",
+    "file": "src/signalforge/source_search.py",
+    "function": "classify_source",
+    "owner": "B",
+    "lesson": "B02"
+  },
+  {
+    "tasks": "T10",
+    "file": "src/signalforge/downloads.py",
+    "function": "download_pdf",
+    "owner": "A",
+    "lesson": "A02"
+  },
+  {
+    "tasks": "T13",
+    "file": "src/signalforge/downloads.py",
+    "function": "fetch_with_approved_fallbacks",
+    "owner": "A",
+    "lesson": "A03"
+  },
+  {
+    "tasks": "T55",
+    "file": "src/signalforge/downloads.py",
+    "function": "retry_research_with_available_sources",
+    "owner": "A",
+    "lesson": "A09"
+  },
+  {
+    "tasks": "T11",
+    "file": "src/signalforge/storage.py",
+    "function": "save_original_artifact",
+    "owner": "A",
+    "lesson": "A03"
+  },
+  {
+    "tasks": "T22",
+    "file": "src/signalforge/storage.py",
+    "function": "initialize_evidence_database",
+    "owner": "A",
+    "lesson": "A05"
+  },
+  {
+    "tasks": "T23",
+    "file": "src/signalforge/storage.py",
+    "function": "index_passage_text",
+    "owner": "A",
+    "lesson": "A05"
+  },
+  {
+    "tasks": "T37",
+    "file": "src/signalforge/storage.py",
+    "function": "record_idempotent_step",
+    "owner": "A",
+    "lesson": "A05"
+  },
+  {
+    "tasks": "T12",
+    "file": "src/signalforge/source_validation.py",
+    "function": "verify_document_identity",
+    "owner": "B",
+    "lesson": "B01"
+  },
+  {
+    "tasks": "T14",
+    "file": "src/signalforge/pdf_extract.py",
+    "function": "extract_pages",
+    "owner": "B",
+    "lesson": "B03"
+  },
+  {
+    "tasks": "T16",
+    "file": "src/signalforge/pdf_extract.py",
+    "function": "segment_page",
+    "owner": "B",
+    "lesson": "B03"
+  },
+  {
+    "tasks": "T17",
+    "file": "src/signalforge/pdf_extract.py",
+    "function": "extract_reporting_context",
+    "owner": "B",
+    "lesson": "B03"
+  },
+  {
+    "tasks": "T15",
+    "file": "src/signalforge/spreadsheet_extract.py",
+    "function": "extract_official_spreadsheet",
+    "owner": "B",
+    "lesson": "B04"
+  },
+  {
+    "tasks": "T18",
+    "file": "src/signalforge/observations.py",
+    "function": "extract_numeric_observation",
+    "owner": "A",
+    "lesson": "A06"
+  },
+  {
+    "tasks": "T20",
+    "file": "src/signalforge/observations.py",
+    "function": "normalize_observation",
+    "owner": "A",
+    "lesson": "A06"
+  },
+  {
+    "tasks": "T19",
+    "file": "src/signalforge/extraction_quality.py",
+    "function": "validate_table_observation",
+    "owner": "B",
+    "lesson": "B04"
+  },
+  {
+    "tasks": "T21",
+    "file": "src/signalforge/claims.py",
+    "function": "extract_qualitative_claims",
+    "owner": "B",
+    "lesson": "B07"
+  },
+  {
+    "tasks": "T38",
+    "file": "src/signalforge/claims.py",
+    "function": "transition_hypothesis",
+    "owner": "B",
+    "lesson": "B10"
+  },
+  {
+    "tasks": "T39",
+    "file": "src/signalforge/claims.py",
+    "function": "link_claims_to_support",
+    "owner": "B",
+    "lesson": "B10"
+  },
+  {
+    "tasks": "T24",
+    "file": "src/signalforge/retrieval.py",
+    "function": "retrieve_evidence",
+    "owner": "B",
+    "lesson": "B06"
+  },
+  {
+    "tasks": "T25",
+    "file": "src/signalforge/retrieval.py",
+    "function": "determine_source_independence",
+    "owner": "B",
+    "lesson": "B06"
+  },
+  {
+    "tasks": "T26",
+    "file": "src/signalforge/finance.py",
+    "function": "compute_comparable_growth",
+    "owner": "A",
+    "lesson": "A07"
+  },
+  {
+    "tasks": "T27",
+    "file": "src/signalforge/finance.py",
+    "function": "compute_receivable_days_proxy",
+    "owner": "A",
+    "lesson": "A07"
+  },
+  {
+    "tasks": "T28",
+    "file": "src/signalforge/finance.py",
+    "function": "screen_financial_anomalies",
+    "owner": "A",
+    "lesson": "A07"
+  },
+  {
+    "tasks": "T42",
+    "file": "src/signalforge/finance.py",
+    "function": "compare_peer_directions",
+    "owner": "A",
+    "lesson": "A07"
+  },
+  {
+    "tasks": "T30",
+    "file": "src/signalforge/capability.py",
+    "function": "select_investigation_capabilities",
+    "owner": "B",
+    "lesson": "B08"
+  },
+  {
+    "tasks": "T31",
+    "file": "src/signalforge/llm.py",
+    "function": "request_structured_reasoning",
+    "owner": "B",
+    "lesson": "B07"
+  },
+  {
+    "tasks": "T29",
+    "file": "src/signalforge/planner.py",
+    "function": "generate_narrative_divergence",
+    "owner": "B",
+    "lesson": "B08"
+  },
+  {
+    "tasks": "T33",
+    "file": "src/signalforge/planner.py",
+    "function": "plan_next_investigation",
+    "owner": "B",
+    "lesson": "B08"
+  },
+  {
+    "tasks": "T34",
+    "file": "src/signalforge/investigation.py",
+    "function": "search_supporting_evidence",
+    "owner": "A",
+    "lesson": "A08"
+  },
+  {
+    "tasks": "T35",
+    "file": "src/signalforge/investigation.py",
+    "function": "search_opposing_evidence",
+    "owner": "B",
+    "lesson": "B10"
+  },
+  {
+    "tasks": "T41",
+    "file": "src/signalforge/investigation.py",
+    "function": "check_corporate_event_confounders",
+    "owner": "A",
+    "lesson": "A08"
+  },
+  {
+    "tasks": "T32",
+    "file": "src/signalforge/graph.py",
+    "function": "node_acquire_validate",
+    "owner": "B",
+    "lesson": "B09"
+  },
+  {
+    "tasks": "T32",
+    "file": "src/signalforge/graph.py",
+    "function": "node_generate_candidates",
+    "owner": "B",
+    "lesson": "B09"
+  },
+  {
+    "tasks": "T32",
+    "file": "src/signalforge/graph.py",
+    "function": "node_investigate_challenge",
+    "owner": "B",
+    "lesson": "B09"
+  },
+  {
+    "tasks": "T32",
+    "file": "src/signalforge/graph.py",
+    "function": "node_report_export",
+    "owner": "B",
+    "lesson": "B09"
+  },
+  {
+    "tasks": "T36",
+    "file": "src/signalforge/graph.py",
+    "function": "route_after_investigation",
+    "owner": "B",
+    "lesson": "B09"
+  },
+  {
+    "tasks": "T32,T36",
+    "file": "src/signalforge/graph.py",
+    "function": "build_research_graph",
+    "owner": "B",
+    "lesson": "B09"
+  },
+  {
+    "tasks": "T40",
+    "file": "src/signalforge/verifier.py",
+    "function": "apply_publication_gates",
+    "owner": "A",
+    "lesson": "A08"
+  },
+  {
+    "tasks": "T43",
+    "file": "src/signalforge/verifier.py",
+    "function": "assess_evidence_strength",
+    "owner": "B",
+    "lesson": "B10"
+  },
+  {
+    "tasks": "T44",
+    "file": "src/signalforge/verifier.py",
+    "function": "prepare_inconclusive_result",
+    "owner": "B",
+    "lesson": "B10"
+  },
+  {
+    "tasks": "T45",
+    "file": "src/signalforge/reporting.py",
+    "function": "build_eight_section_report",
+    "owner": "B",
+    "lesson": "B11"
+  },
+  {
+    "tasks": "T47",
+    "file": "src/signalforge/reporting.py",
+    "function": "audit_rendered_report",
+    "owner": "A",
+    "lesson": "A09"
+  },
+  {
+    "tasks": "T48",
+    "file": "src/signalforge/cli.py",
+    "function": "run_company_research",
+    "owner": "A",
+    "lesson": "A09"
+  }
+]

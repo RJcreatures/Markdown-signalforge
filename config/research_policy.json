@@ -1,0 +1,20 @@
+{
+  "track": "C",
+  "company_specific_analysis_allowed": false,
+  "primary_numerical_sources": [
+    "issuer_investor_relations",
+    "official_exchange_filing"
+  ],
+  "retrieval": "SQLite FTS5 and metadata",
+  "max_hypothesis_candidates": 3,
+  "max_investigation_loops": 2,
+  "metric_guardrails": [
+    "same entity",
+    "same metric definition",
+    "compatible statement scope",
+    "same currency/unit scale",
+    "comparable period duration",
+    "original provenance"
+  ],
+  "status": "PROPOSED_POLICY_NOT_IMPLEMENTED"
+}

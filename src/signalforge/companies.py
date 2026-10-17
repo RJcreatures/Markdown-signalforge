@@ -24,6 +24,9 @@ from typing import Any
 # ADD only domain-generic constants after reading docs and defining tests.
 # Do not hard-code particular company findings or sample outputs.
 
+
+
+
 ############################ FUNCTION DEFINITIONS ############################
 
 
@@ -48,7 +51,34 @@ def resolve_company(query: str, sector: str) -> dict[str, Any]:
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
     """
+
+
+
+
+    normalized_name = query.strip().lower()
+
+    #print(f"Resolving company for query: '{query}' in sector: '{sector}'")
+
+
+
+
+
+
+
+
+
+
+
+
     ######################## ADD YOUR CODE HERE ########################
-    # TODO T06: implement this function personally, then write/enable its tests.
-    raise NotImplementedError("T06: resolve_company has not been implemented")
+    #  T06: implement this function personally, then write/enable its tests.
+    #raise NotImplementedError("T06: resolve_company has not been implemented")
     ####################################################################
+
+
+
+
+name = "Reliance Industries Limited"
+ctor = "Energy"
+
+resolve_company(query=name, sector=ctor)

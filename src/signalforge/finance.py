@@ -47,6 +47,8 @@ def compute_comparable_growth(previous: dict[str, Any], current: dict[str, Any])
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `finance.compute_comparable_growth()`, `Decimal`, validated period/basis/metric-definition equality, formula `(current/prior)-1`; reject zero denominator and incompatible periods.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T26: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def compute_receivable_days_proxy(receivables: dict[str, Any], revenue: dict[str
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `finance.compute_receivable_days_proxy()`, `Decimal`, `datetime.date` difference, average receivables only if two matched balance dates exist, period-matched revenue; label as sales-based proxy if credit sales unavailable.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T27: implement this function personally, then write/enable its tests.
@@ -101,6 +105,8 @@ def screen_financial_anomalies(observations: list[dict[str, Any]]) -> list[dict[
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `finance.screen_financial_anomalies()`, validated calculated metrics, Python comparisons and bounded sorting (`sorted` with a score key); never create candidate from missing or unverified data.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T28: implement this function personally, then write/enable its tests.
@@ -128,6 +134,8 @@ def compare_peer_directions(target: dict[str, Any], peers: list[dict[str, Any]])
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `finance.compare_peer_directions()`, `Decimal`, aligned peer metric definitions, periods and comparable company class; report peer values/directions without treating two peers as a reliable Z-score sample.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T42: implement this function personally, then write/enable its tests.

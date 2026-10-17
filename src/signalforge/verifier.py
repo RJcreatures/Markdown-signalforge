@@ -47,6 +47,8 @@ def apply_publication_gates(hypothesis: dict[str, Any], evidence: list[dict[str,
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `verifier.apply_publication_gates()`, deterministic checks for identity, passage, numeric validity, independent origins, comparison scope, actual counter-search and complete eight-field output; return per-gate failures.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T40: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def assess_evidence_strength(gate_result: dict[str, Any], limitations: list[str]
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `verifier.assess_evidence_strength()`, completed publication-gate outcomes, counterevidence status and source independence; assign Strong/Moderate/Weak with a written evidence rationale.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T43: implement this function personally, then write/enable its tests.
@@ -101,6 +105,8 @@ def prepare_inconclusive_result(attempts: list[dict[str, Any]], problems: list[s
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `verifier.prepare_inconclusive_result()`, structured missing-evidence and attempted-investigation record, refusal reason, partial verified observations; must not label unsupported hypotheses as discoveries.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T44: implement this function personally, then write/enable its tests.

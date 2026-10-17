@@ -47,6 +47,8 @@ def request_structured_reasoning(role: str, input_payload: dict[str, Any], setti
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `llm.request_structured_reasoning()`, one chosen provider SDK with JSON/schema mode when supported, Pydantic `model_validate`/`model_validate_json`, capped tokens/timeouts; reject malformed replies. Provider unspecified—check actual SDK API.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T31: implement this function personally, then write/enable its tests.

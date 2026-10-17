@@ -47,6 +47,8 @@ def save_original_artifact(content: bytes, metadata: dict[str, Any]) -> dict[str
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `pathlib.Path`, `tempfile.NamedTemporaryFile`, `hashlib.sha256`, `os.replace`; implement `storage.save_original_artifact()` as atomic, content-addressed file storage with deduplication.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T11: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def initialize_evidence_database(database_path: str) -> None:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `sqlite3.connect`, SQL `CREATE TABLE IF NOT EXISTS`, PRIMARY KEY/UNIQUE/FOREIGN KEY/CHECK, connection transactions; implement `storage.initialize_evidence_database()` for all referenced records.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T22: implement this function personally, then write/enable its tests.
@@ -101,6 +105,8 @@ def index_passage_text(passage: dict[str, Any], database_path: str) -> None:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `sqlite3` FTS5 `CREATE VIRTUAL TABLE ... USING fts5`, `INSERT`, `MATCH`, `bm25()`, `JOIN` to passage metadata; implement `storage.index_passage_text()` and a page-linked query fixture.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T23: implement this function personally, then write/enable its tests.
@@ -128,6 +134,8 @@ def record_idempotent_step(run_id: str, step_key: str, payload: dict[str, Any]) 
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `storage.record_idempotent_step()`, SQLite `UNIQUE` key for run + operation + artifact and transactional `INSERT ... ON CONFLICT`, SHA-256 identity; rerunning a LangGraph node must not duplicate evidence.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T37: implement this function personally, then write/enable its tests.

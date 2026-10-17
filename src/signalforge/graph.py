@@ -47,6 +47,8 @@ def node_acquire_validate(state: dict[str, Any]) -> dict[str, Any]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `langgraph.graph.StateGraph` and `START`/`END`, state `TypedDict`, `add_node`, `add_edge`, `compile`; implement `graph.node_acquire_validate`, `node_generate_candidates`, `node_investigate_challenge`, `node_report_export`, and `build_research_graph()`. Persist only IDs/status in graph state.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T32: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def node_generate_candidates(state: dict[str, Any]) -> dict[str, Any]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `langgraph.graph.StateGraph` and `START`/`END`, state `TypedDict`, `add_node`, `add_edge`, `compile`; implement `graph.node_acquire_validate`, `node_generate_candidates`, `node_investigate_challenge`, `node_report_export`, and `build_research_graph()`. Persist only IDs/status in graph state.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T32: implement this function personally, then write/enable its tests.
@@ -101,6 +105,8 @@ def node_investigate_challenge(state: dict[str, Any]) -> dict[str, Any]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `langgraph.graph.StateGraph` and `START`/`END`, state `TypedDict`, `add_node`, `add_edge`, `compile`; implement `graph.node_acquire_validate`, `node_generate_candidates`, `node_investigate_challenge`, `node_report_export`, and `build_research_graph()`. Persist only IDs/status in graph state.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T32: implement this function personally, then write/enable its tests.
@@ -128,6 +134,8 @@ def node_report_export(state: dict[str, Any]) -> dict[str, Any]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `langgraph.graph.StateGraph` and `START`/`END`, state `TypedDict`, `add_node`, `add_edge`, `compile`; implement `graph.node_acquire_validate`, `node_generate_candidates`, `node_investigate_challenge`, `node_report_export`, and `build_research_graph()`. Persist only IDs/status in graph state.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T32: implement this function personally, then write/enable its tests.
@@ -155,6 +163,8 @@ def route_after_investigation(state: dict[str, Any]) -> str:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `graph.route_after_investigation()`, `StateGraph.add_conditional_edges`, `langgraph.graph.END`, iteration/time/call counters, status enums; terminate on accepted, exhausted, or unrecoverable states.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T36: implement this function personally, then write/enable its tests.
@@ -182,6 +192,8 @@ def build_research_graph() -> Any:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `langgraph.graph.StateGraph` and `START`/`END`, state `TypedDict`, `add_node`, `add_edge`, `compile`; implement `graph.node_acquire_validate`, `node_generate_candidates`, `node_investigate_challenge`, `node_report_export`, and `build_research_graph()`. Persist only IDs/status in graph state. `graph.route_after_investigation()`, `StateGraph.add_conditional_edges`, `langgraph.graph.END`, iteration/time/call counters, status enums; terminate on accepted, exhausted, or unrecoverable states.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T32,T36: implement this function personally, then write/enable its tests.

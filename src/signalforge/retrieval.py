@@ -47,6 +47,8 @@ def retrieve_evidence(query: str, filters: dict[str, Any], limit: int = 5) -> li
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `retrieval.retrieve_evidence()`, parameterized SQLite FTS5 `MATCH`, `bm25`, metadata filters for company/period/source class, `LIMIT`; return actual passage IDs, not model-generated citation text.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T24: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def determine_source_independence(documents: list[dict[str, Any]]) -> dict[str, 
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `retrieval.determine_source_independence()`, stored SHA-256, canonical document/origin IDs, publisher class `ISSUER/EXCHANGE/PEER/INDUSTRY/AGGREGATOR`; group mirrors before counting corroboration.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T25: implement this function personally, then write/enable its tests.

@@ -47,6 +47,8 @@ def generate_narrative_divergence(claims: list[dict[str, Any]], metrics: list[di
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `planner.generate_narrative_divergence()`, stored management-claim IDs plus comparable metric IDs, structured output and contradiction keywords; a management quote by itself is not a discovery.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T29: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def plan_next_investigation(candidates: list[dict[str, Any]], budget: dict[str, 
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `planner.plan_next_investigation()`, candidate/evidence IDs, `prompts/research_planner.md`, schema-constrained LLM planning, max hypothesis and query budgets; validate referenced IDs against storage.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T33: implement this function personally, then write/enable its tests.

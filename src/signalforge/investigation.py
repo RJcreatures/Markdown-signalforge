@@ -47,6 +47,8 @@ def search_supporting_evidence(hypothesis: dict[str, Any], budget: dict[str, Any
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `investigation.search_supporting_evidence()`, `retrieval.retrieve_evidence()`, accounting synonym bank, follow-up FTS5 queries and dated source filters; log no-result searches.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T34: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def search_opposing_evidence(hypothesis: dict[str, Any], budget: dict[str, Any])
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `investigation.search_opposing_evidence()`, FTS5 queries for restatement/acquisition/seasonality/peer trends, structured counterevidence IDs, recorded search coverage; require substantive contradictions rather than model self-critique.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T35: implement this function personally, then write/enable its tests.
@@ -101,6 +105,8 @@ def check_corporate_event_confounders(company: dict[str, Any], period: dict[str,
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `investigation.check_corporate_event_confounders()`, stored source passages + FTS5 searches for `acquisition`, `demerger`, `restatement`, `scheme of arrangement`, timeline validation; unresolved material events restrict conclusions.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T41: implement this function personally, then write/enable its tests.

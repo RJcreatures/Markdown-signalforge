@@ -47,6 +47,8 @@ def run_company_research(company_name: str) -> dict[str, Any]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `cli.run_company_research()`, `argparse.ArgumentParser`, validated settings, `graph.build_research_graph().invoke()` (or tested sequential fallback), run metadata, output file path/error status.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T48: implement this function personally, then write/enable its tests.

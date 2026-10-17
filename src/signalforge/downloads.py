@@ -47,6 +47,8 @@ def download_pdf(url: str, settings: dict[str, Any]) -> dict[str, Any]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `httpx.Client.stream("GET", ...)`, `Response.iter_bytes()`, HTTP timeout/status checks, `urllib.parse`, `ipaddress`, DNS/private-target checks, PDF `%PDF-` header, controlled redirection; implement `downloads.download_pdf()` safely.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T10: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def fetch_with_approved_fallbacks(candidates: list[dict[str, Any]], settings: di
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `downloads.fetch_with_approved_fallbacks()`, ranked approved issuer/exchange URLs, `httpx.TimeoutException`/`HTTPStatusError`, capped attempts/backoff, error ledger; stop on access denial rather than bypassing restrictions.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T13: implement this function personally, then write/enable its tests.
@@ -101,6 +105,8 @@ def retry_research_with_available_sources(research_need: dict[str, Any], candida
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `downloads.retry_research_with_available_sources()`, available source IDs + capability records + remaining budget; choose a valid alternate period/document/angle without inventing missing fields.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T55: implement this function personally, then write/enable its tests.

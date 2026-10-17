@@ -10,9 +10,10 @@ This is an e-Yantra-style **learning scaffold** with function locations, hints, 
 1. `FILE_MANIFEST.md` — complete tree and why each file exists.
 2. `LESSONS_AND_TASKS.md` — exactly what each teammate studies and codes after each lesson, written and video resources.
 3. `BUILD_ORDER.md` — all 56 tasks, owners, prerequisites, locations, acceptance conditions, graph nodes and milestones.
-4. Open the assigned `.py` and find `ADD YOUR CODE HERE`.
-5. `docs/TEST_PLAN.md` — replace skipped tests with real assertions; don't count skips as passed tests.
-6. `docs/ROUND1_SUBMISSION.md` — mandatory Unstop proposal PDF.
+4. `HINT_LADDER_56_TASKS.md` — reveal Levels 1–7 progressively, with exact APIs at Level 7; Level 8 is an optional full-solution request for one task.
+5. Open the assigned `.py` and find `ADD YOUR CODE HERE`.
+6. `docs/TEST_PLAN.md` — replace skipped tests with real assertions; don't count skips as passed tests.
+7. `docs/ROUND1_SUBMISSION.md` — mandatory Unstop proposal PDF.
 
 ## Development rule
 The full project is too ambitious to implement blindly before October 19. Build one validated vertical slice first. The **required Round 1 proposal PDF has priority**; optional working MVP/repo/video should only be submitted if real.
@@ -29,3 +30,11 @@ No company-specific conclusions hardcoded; no invented numbers/sources; primary 
 
 ## Dependency notes
 Package specs in pyproject.toml are proposed minimums, not a tested lockfile. Choose one lawful API provider; verify model and search quotas and source access during implementation.
+
+## Eight-level hint policy
+Levels 1–6 remain intact. **H7** names the concrete Python modules, libraries and callable APIs appropriate for each of the 56 tasks. **H8** is the optional surrender level: you may ask your mentor for complete implementation for ONE specified task, including tests. This ZIP keeps all code slots unimplemented and all placeholder tests skipped until you implement them. Do not mistake a solution reveal or syntax check for tested behavior.
+
+
+## Per-task learning resources (v4 addition)
+
+Open [`STUDY_INDEX.md`](STUDY_INDEX.md) for 56 separate study guides in [`study/`](study/). They fix incomplete prerequisite mappings (especially B01→T03/T04), and include concept-by-concept written + video resources, practice exercises, and the original eight hint levels. Teammate A is you; B is your partner.

@@ -47,6 +47,8 @@ def build_research_queries(company: dict[str, Any]) -> list[str]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `source_search.build_research_queries()`, f-strings/formatting, issuer legal name, quoted aliases, `annual report`, `financial results`, `investor presentation`, fiscal-year filters; produce bounded query objects, not company-specific results.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T07: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def search_public_sources(queries: list[str], settings: dict[str, Any]) -> list[
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `httpx.Client` or the chosen search-provider official Python SDK, provider request parameters, `response.raise_for_status()`, `.json()`, `pydantic` validation; implement `source_search.search_public_sources()` with bounded, normalized results. Provider not selected—do not invent endpoints.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T08: implement this function personally, then write/enable its tests.
@@ -101,6 +105,8 @@ def classify_source(candidate: dict[str, Any]) -> dict[str, Any]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `urllib.parse.urlsplit`, hostname/path parsing, verified issuer/exchange domain allowlist, source-origin metadata, content SHA-256 for duplicates; implement `source_search.classify_source()` without treating aggregator and mirrored filing as independent.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T09: implement this function personally, then write/enable its tests.

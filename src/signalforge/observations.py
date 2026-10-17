@@ -47,6 +47,8 @@ def extract_numeric_observation(passages: list[dict[str, Any]], metric_definitio
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `observations.extract_numeric_observation()`, `Decimal`, `re.fullmatch` / carefully scoped parsing, typed Observation records; require matched row label, column, header, unit and evidence ID.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T18: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def normalize_observation(observation: dict[str, Any]) -> dict[str, Any]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `observations.normalize_observation()`, `Decimal`, explicit INR lakh/million/crore conversions, `datetime.date`, period duration, stock-versus-flow distinction; reject incompatible bases or a 15-month vs 12-month comparison.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T20: implement this function personally, then write/enable its tests.

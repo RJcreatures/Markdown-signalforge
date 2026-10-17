@@ -47,6 +47,8 @@ def validate_table_observation(observation: dict[str, Any], source_page: dict[st
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `extraction_quality.validate_table_observation()`, `Decimal`, column/header context, printed totals, parentheses/footnote flags; fail closed if row alignment or expected aggregation cannot be established.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T19: implement this function personally, then write/enable its tests.

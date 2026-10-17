@@ -47,6 +47,8 @@ def verify_document_identity(artifact: dict[str, Any], company: dict[str, Any]) 
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `source_validation.verify_document_identity()`, verified issuer metadata, PDF cover/title and report-period extraction, domain/origin class; return `verified/ambiguous/rejected` and never rely only on filename.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T12: implement this function personally, then write/enable its tests.

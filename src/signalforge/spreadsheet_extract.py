@@ -47,6 +47,8 @@ def extract_official_spreadsheet(path: str, metadata: dict[str, Any]) -> list[di
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `openpyxl.load_workbook(read_only=True, data_only=False/True)`, `Workbook.sheetnames`, worksheet `.iter_rows()` with coordinates; `csv.DictReader` for CSV; `spreadsheet_extract.extract_official_spreadsheet()` with original cell provenance.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T15: implement this function personally, then write/enable its tests.

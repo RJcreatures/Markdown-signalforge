@@ -47,6 +47,8 @@ def extract_qualitative_claims(passages: list[dict[str, Any]]) -> list[dict[str,
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `claims.extract_qualitative_claims()`, structured LLM reply through `llm.request_structured_reasoning()`, stored page passages, normalized exact-quote checking; retain date and speaker/source IDs.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T21: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def transition_hypothesis(hypothesis: dict[str, Any], verdict: str) -> dict[str,
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `claims.transition_hypothesis()`, `Enum` lifecycle states, a Python allowed-transition mapping, record rejection reason and audit time; only allowed verified states can publish.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T38: implement this function personally, then write/enable its tests.
@@ -101,6 +105,8 @@ def link_claims_to_support(claim: dict[str, Any], supporting: list[dict[str, Any
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `claims.link_claims_to_support()`, typed claim/evidence/observation IDs, SQLite joins on company/period/basis and source excerpt; reject unsupported or unrelated links.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T39: implement this function personally, then write/enable its tests.

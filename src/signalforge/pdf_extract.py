@@ -47,6 +47,8 @@ def extract_pages(pdf_path: str) -> list[dict[str, Any]]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `pymupdf.open`, document `.page_count`, `page.get_text("text")` and indexed page iteration; implement `pdf_extract.extract_pages()` preserving page number, document ID and extraction errors.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T14: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def segment_page(page_record: dict[str, Any]) -> list[dict[str, Any]]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `pdf_extract.segment_page()`, Python string positions / `re.finditer`, bounded character windows and offset metadata; keep each passage tied to its original full page.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T16: implement this function personally, then write/enable its tests.
@@ -101,6 +105,8 @@ def extract_reporting_context(pages: list[dict[str, Any]]) -> dict[str, Any]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `pdf_extract.extract_reporting_context()`, `re` for fiscal dates, calendar-date validation with `datetime`, exact `consolidated/standalone` phrases; return `unknown` when ambiguous.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T17: implement this function personally, then write/enable its tests.

@@ -47,6 +47,8 @@ def load_settings() -> dict[str, Any]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `os.getenv`, `pathlib.Path`, `pydantic.BaseModel`/`Field` (or a validated dataclass), Python `datetime`; implement `config.load_settings()` and reject impossible budgets or absent required credentials.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T02: implement this function personally, then write/enable its tests.

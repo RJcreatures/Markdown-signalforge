@@ -47,6 +47,8 @@ def define_company_and_document_contracts() -> dict[str, type]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `pydantic.BaseModel`, `Field`, `field_validator`, `model_validator`, `HttpUrl`, `datetime`, `Enum`; define source types via `contracts.define_company_and_document_contracts()`.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T03: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def define_research_contracts() -> dict[str, type]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `pydantic.BaseModel`, `Field`, `model_validator`, `Enum`, `datetime`, `Decimal`; declare validation and hypothesis-state records in `contracts.define_research_contracts()`; rejected evidence never becomes `VERIFIED`.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T04: implement this function personally, then write/enable its tests.

@@ -1,0 +1,16 @@
+# Never commit credentials, private data, downloads, run outputs, or local environments.
+.env
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+*.egg-info/
+output/*
+!output/.gitkeep
+data/*
+!data/.gitkeep
+*.sqlite
+*.db
+.DS_Store

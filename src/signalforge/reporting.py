@@ -47,6 +47,8 @@ def build_eight_section_report(discovery: dict[str, Any]) -> dict[str, Any]:
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `reporting.build_eight_section_report()`, Pydantic report contract and referenced claim/metric IDs; fill exact eight brief sections with clickable source locations and falsification condition.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T45: implement this function personally, then write/enable its tests.
@@ -74,6 +76,8 @@ def audit_rendered_report(report_html: str, provenance: dict[str, Any]) -> dict[
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `reporting.audit_rendered_report()`, parsed report/claim registry, ID-based number and citation audits, `Decimal` conversions; reject unreferenced numbers or source URLs not present in stored records.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T47: implement this function personally, then write/enable its tests.

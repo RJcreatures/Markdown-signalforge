@@ -47,6 +47,8 @@ def select_investigation_capabilities(available_evidence: list[dict[str, Any]]) 
         H4: Consult the written + video resources in LESSONS_AND_TASKS.md.
         H5: Follow the task-specific build/validation rules above.
         H6: For a precise algorithmic walkthrough without code, ask the mentor.
+        H7: USE THESE EXACT TOOLS/METHODS: `capability.select_investigation_capabilities()`, explicit required-evidence sets, Boolean eligibility checks, available Observation/Passage IDs; do not attempt price–volume decomposition without defined volume disclosure.
+        H8: GIVE UP — explicitly ask the mentor for complete reference code and tests for this function only. Review before adopting.
     """
     ######################## ADD YOUR CODE HERE ########################
     # TODO T30: implement this function personally, then write/enable its tests.
